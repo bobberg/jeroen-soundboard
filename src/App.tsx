@@ -19,47 +19,47 @@ function App() {
     },
     {
       name: "Priority no. 1 remains, continue business as usual",
-      url: "path/to/sound3.mp3",
+      url: "/assets/sounds/Business as usual.m4a",
       img: "./images/priority-no-1-remains-continue-business-as-usual.png",
     },
     {
       name: "Are we going to Dickies?",
-      url: "path/to/sound4.mp3",
+      url: "/assets/sounds/Dickies.m4a",
       img: "./images/are-we-going-to-dickies.png",
     },
     {
       name: "I don't see it on the slide, so it's not there...",
-      url: "path/to/sound5.mp3",
+      url: "/assets/sounds/Slide.m4a",
       img: "./images/i-dont-see-it-in-the-slide-so-its-not-there.png",
     },
     {
       name: "How many clients did you call today?",
-      url: "path/to/sound5.mp3",
+      url: "/assets/sounds/Clients.m4a",
       img: "./images/how-many-clients-did-you-call-today.png",
     },
     {
       name: "Let's get real or let's not play",
-      url: "path/to/sound5.mp3",
+      url: "/assets/sounds/Get real.m4a",
       img: "./images/lets-get-real-or-lets-not-play.png",
     },
     {
       name: "That is NOT a good question",
-      url: "path/to/sound5.mp3",
+      url: "/assets/sounds/Question.m4a",
       img: "./images/that-is-not-a-good-question.png",
     },
     {
       name: "I'm not gonna give you answers, only context",
-      url: "path/to/sound5.mp3",
+      url: "/assets/sounds/Context.m4a",
       img: "./images/im-not-gonna-give-you-answers-only-context.png",
     },
     {
       name: "Consulting is a marathon, not a sprint",
-      url: "path/to/sound5.mp3",
+      url: "/assets/sounds/Marathon.m4a",
       img: "./images/consulting-is-a-marathon-not-a-sprint.png",
     },
     {
       name: "If you don't follow the process, it doesn't exist",
-      url: "path/to/sound5.mp3",
+      url: "/assets/sounds/Process.m4a",
       img: "./images/if-you-dont-follow-the-process-it-doesnt-exist.png",
     },
   ];
