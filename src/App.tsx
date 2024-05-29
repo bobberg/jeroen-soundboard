@@ -1,6 +1,9 @@
 import React from "react";
 import "./App.css";
 
+// import jeroenNietDoen from "./../src/assets/sounds/Keukenkampioen.m4a"
+// import jeroenNietDoen from "./assets/sounds/Keukenkampioen.m4a";
+
 function App() {
   // URLs of the audio clips
   const sounds = [
@@ -11,7 +14,7 @@ function App() {
     },
     {
       name: "We are Champions League, not Keukenkampioen",
-      url: "path/to/sound2.mp3",
+      url: "/assets/sounds/Keukenkampioen.m4a",
       img: "./images/we-are-champions-league-not-keukenkampioen.png",
     },
     {
@@ -61,9 +64,19 @@ function App() {
     },
   ];
 
+  const baseUrl = process.env.REACT_APP_PUBLIC_URL
+    ? process.env.REACT_APP_PUBLIC_URL
+    : "https://purple-sea-0a26ebb03.5.azurestaticapps.net";
+
+  // const path = `${baseUrl}/DamoresMijnFSV.pdf`;
+
   const playSound = (url: string) => {
-    const audio = new Audio(url);
-    audio.play();
+    const setUrl = `${baseUrl}${url}`;
+
+    const audio = new Audio(`${setUrl}`);
+    audio
+      .play()
+      .catch((error) => console.error("Error playing the sound:", error));
   };
 
   return (
