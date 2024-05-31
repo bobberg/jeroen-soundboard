@@ -78,8 +78,8 @@ function App() {
   //   ? process.env.REACT_APP_PUBLIC_URL
   //   : "https://purple-sea-0a26ebb03.5.azurestaticapps.net";
 
-  const baseUrl = `${process.env.REACT_APP_PUBLIC_URL}`;
-  // const baseUrl = "https://purple-sea-0a26ebb03.5.azurestaticapps.net";
+  // const baseUrl = `${process.env.REACT_APP_PUBLIC_URL}`;
+  const baseUrl = "https://purple-sea-0a26ebb03.5.azurestaticapps.net";
   // const path = `${baseUrl}/DamoresMijnFSV.pdf`;
 
   const playSound = (url: string) => {
